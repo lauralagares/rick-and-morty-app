@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: yellow;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #caff1a, #ffffff), repeating-radial-gradient(circle at center center, #caff1a, #caff1a, 14px, transparent 28px, transparent 14px);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face{
+  font-family: "rick-morty-font";
+  src: url(../src/fonts/Shadow\ of\ the\ Deads.ttf);
+}
+
+p{
+  font-family: "rick-morty-font";
+}
