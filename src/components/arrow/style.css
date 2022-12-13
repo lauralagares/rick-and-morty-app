@@ -20,3 +20,17 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
+
+@media(max-width:500px) {
+    .arrow {
+        margin-top: 20px;
+        border-width: 0 10px 10px 0;
+        padding: 10px;
+    }
+
+    .arrow:hover{
+        margin-top: 20px;
+        border-width: 0 10px 10px 0;
+        padding: 10px;
+    }
+}
