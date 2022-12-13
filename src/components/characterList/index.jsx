@@ -55,7 +55,7 @@ function CharacterList() {
 
     return (
 
-        <div className="container-fluid mt-5" id="characters-container">
+        <div className="container-fluid mt-5 mb-5" id="characters-container">
 
             <div className="d-flex justify-content-center mt-3">
                 <input type="text"
@@ -80,8 +80,6 @@ function CharacterList() {
                 <label htmlFor="all"><p>ALL</p></label>
                 <input type="radio" id="all" name="status" value="all" defaultChecked />
             </section>
-
-            {/* <Pagination handlePrevious={handlePrevious} handleNext={handleNext}></Pagination> */}
 
             <section className='d-flex flex-wrap justify-content-center m-4'
                 style={{ minHeight: "50vh" }}>

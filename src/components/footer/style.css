@@ -1,4 +1,11 @@
 .footer-background{
     padding-top: 2rem;
-    background-color: #B6FA44;
+    background-color: chartreuse;
+}
+
+@media(max-width:500px) {
+
+    .footer-background > p {
+        font-size: 0.7rem;
+    }
 }
