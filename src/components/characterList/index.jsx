@@ -55,12 +55,13 @@ function CharacterList() {
 
     return (
 
-        <div className="container-fluid">
+        <div className="container-fluid mt-5" id="characters-container">
 
             <div className="d-flex justify-content-center mt-3">
                 <input type="text"
+                    id='pru'
                     className="form-control"
-                    style={{ width: "50%" }}
+                    style={{ width: "33rem" }}
                     placeholder='Search Character' onChange={filterByName} />
             </div>
 
@@ -80,9 +81,7 @@ function CharacterList() {
                 <input type="radio" id="all" name="status" value="all" defaultChecked />
             </section>
 
-            <section className='d-flex justify-content-between m-2'>
-                <Pagination handlePrevious={handlePrevious} handleNext={handleNext} ></Pagination>
-            </section>
+            {/* <Pagination handlePrevious={handlePrevious} handleNext={handleNext}></Pagination> */}
 
             <section className='d-flex flex-wrap justify-content-center m-4'
                 style={{ minHeight: "50vh" }}>
@@ -91,9 +90,7 @@ function CharacterList() {
 
             </section>
 
-            <section className='d-flex justify-content-between m-2'>
-                <Pagination handlePrevious={handlePrevious} handleNext={handleNext}></Pagination>
-            </section>
+            <Pagination handlePrevious={handlePrevious} handleNext={handleNext}></Pagination>
 
         </div>
     )

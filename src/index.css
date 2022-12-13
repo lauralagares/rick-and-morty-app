@@ -6,14 +6,14 @@
 
 #root {
   min-height: 100vh;
-  background-color: yellow;
-  opacity: 1;
-  background-image: radial-gradient(circle at center center, #caff1a, #ffffff), repeating-radial-gradient(circle at center center, #caff1a, #caff1a, 14px, transparent 28px, transparent 14px);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-color: #13e7d9;
+  background-image: radial-gradient(at 60% 91%, hsla(270, 95%, 53%, 1) 0, hsla(270, 95%, 53%, 0) 50%),
+      radial-gradient(at 93% 99%, hsla(303, 88%, 67%, 1) 0, hsla(303, 88%, 67%, 0) 50%),
+      radial-gradient(at 85% 56%, hsla(263, 91%, 64%, 1) 0, hsla(263, 91%, 64%, 0) 50%),
+      radial-gradient(at 91% 25%, hsla(305, 95%, 62%, 1) 0, hsla(305, 95%, 62%, 0) 50%),
+      radial-gradient(at 49% 100%, hsla(241, 95%, 69%, 1) 0, hsla(241, 95%, 69%, 0) 50%),
+      radial-gradient(at 93% 26%, hsla(265, 85%, 66%, 1) 0, hsla(265, 85%, 66%, 0) 50%),
+      radial-gradient(at 45% 84%, hsla(159, 90%, 64%, 1) 0, hsla(159, 90%, 64%, 0) 50%);
 }
 
 body {

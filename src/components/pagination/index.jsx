@@ -1,19 +1,35 @@
 import './style.css';
-import { GrPrevious } from 'react-icons/gr';
-import { GrNext } from 'react-icons/gr';
+import { GrLinkPrevious } from 'react-icons/gr';
+import { GrLinkNext } from 'react-icons/gr';
+import { Link } from 'react-scroll';
 
 function Pagination({ handlePrevious, handleNext }) {
 
     return (
-        <>
-            <button className="pagination-button" onClick={handlePrevious}>
-                <GrPrevious />
-            </button>
+        <div className='pagination-container'>
 
-            <button className="pagination-button" onClick={handleNext}>
-                <GrNext />
-            </button>
-        </>
+            <Link className='pagination-link'
+                to="characters-container"
+                spy={true} smooth={true}
+                offset={-20}
+                duration={500}>
+                <button className="pagination-button" onClick={handlePrevious}>
+                    <GrLinkPrevious /><p>PREVIOUS PAGE</p>
+                </button>
+            </Link>
+
+            <Link className='pagination-link'
+                to="characters-container"
+                spy={true}
+                smooth={true}
+                offset={-20}
+                duration={500}>
+                <button className="pagination-button" onClick={handleNext}>
+                    <p>NEXT PAGE</p><GrLinkNext />
+                </button>
+            </Link>
+
+        </div>
     )
 }
 

@@ -1,0 +1,22 @@
+.arrow {
+    margin-top: 80px;
+    border: solid white;
+    border-width: 0 15px 15px 0;
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    margin-top: 80px;
+    border: solid deeppink;
+    border-width: 0 15px 15px 0;
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
