@@ -12,24 +12,23 @@
     font-size: 0.8rem;
     cursor: pointer;
     box-shadow: 0 0.313rem black;
-    /* background: #FF3FEE; */
     border: 1px solid black;
 }
 
 .filter-buttons>label:nth-child(1) {
-    background: #A8FF3F;
+    background: linear-gradient(331deg, rgba(6,255,0,1) 0%, rgba(200,249,122,1) 65%);
 }
 
 .filter-buttons>label:nth-child(3) {
-    background: #FF503F;
+    background: linear-gradient(331deg, rgba(255,3,0,1) 0%, rgba(249,194,122,1) 65%);
 }
 
 .filter-buttons>label:nth-child(5) {
-    background: #c0c0c0;
+    background: linear-gradient(331deg, rgba(103,100,100,1) 0%, rgba(234,232,230,1) 65%);
 }
 
 .filter-buttons>label:nth-child(7) {
-    background: rgb(255, 255, 255);
+    background: linear-gradient(331deg, deeppink 0%, hotpink 65%);
 }
 
 .filter-buttons>label:active {

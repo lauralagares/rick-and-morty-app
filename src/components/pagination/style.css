@@ -17,7 +17,7 @@
     width: 14rem;
     height: 2.5rem;
     border-radius: 0.313rem;
-    background-color: #FF4E9C;
+    background: linear-gradient(331deg, deeppink 0%, hotpink 65%);
     box-shadow:  0 0.313rem #130011;
     border: 1px solid black;
 }
